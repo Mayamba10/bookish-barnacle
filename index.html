@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Honeybee Notes</title>
+    <meta name="description" content="A short blog about honeybees: biology, threats, and how to help.">
+    <meta property="og:title" content="Honeybee Notes">
+    <meta property="og:description" content="A short blog about honeybees: biology, threats, and how to help.">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <style>
+        /* Inlined styles from styles.css */
+        :root {
+            --accent: #F7B500;
+            --bg: #fffefc;
+            --muted: #666;
+            --max-width: 900px
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+            margin: 0;
+            color: #222;
+            background: var(--bg);
+        }
+
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 1rem
+        }
+
+        .site-header {
+            background: #fff;
+            border-bottom: 1px solid #eee
+        }
+
+        .site-title {
+            margin: 0;
+            padding: 1rem 0;
+            display: inline-block
+        }
+
+        nav {
+            float: right
+        }
+
+        nav a {
+            margin-left: 1rem;
+            color: var(--accent);
+            text-decoration: none
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 2rem 0
+        }
+
+        .hero-text h2 {
+            margin: .2rem 0
+        }
+
+        .hero-graphic {
+            flex: 0 0 140px
+        }
+
+        .posts {
+            margin-top: 1.5rem
+        }
+
+        .post-card {
+            background: #fff;
+            border: 1px solid #eee;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 6px
+        }
+
+        .post-card h4 {
+            margin: .2rem 0
+        }
+
+        .site-footer {
+            border-top: 1px solid #eee;
+            margin-top: 2rem;
+            padding: 1rem 0;
+            color: var(--muted);
+            font-size: .9rem
+        }
+
+        .about {
+            margin-top: 2rem;
+            padding: 1rem;
+            background: #fff;
+            border: 1px solid #f1e6d6
+        }
+
+        @media (max-width:600px) {
+            .hero {
+                flex-direction: column;
+                text-align: center
+            }
+
+            nav {
+                float: none
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title">Honeybee Notes 🐝</h1>
+            <nav>
+                <a href="#top">Home</a>
+                <a href="#biology">Biology</a>
+                <a href="#threats">Threats</a>
+                <a href="#about">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="top" class="container">
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Small insects, huge impact</h2>
+                <p>Learn about honeybee biology, the threats they face, and simple ways you can help pollinators thrive.
+                </p>
+            </div>
+
+            <div class="hero-graphic" aria-hidden="true">
+                <!-- Embedded bee SVG -->
+                <svg width="120" height="120" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <defs>
+                        <style>
+                            .a {
+                                fill: #FFD66B
+                            }
+
+                            .b {
+                                fill: #E6A400
+                            }
+
+                            .c {
+                                fill: #333
+                            }
+                        </style>
+                    </defs>
+                    <ellipse class="a" cx="32" cy="30" rx="12" ry="9" />
+                    <path class="b" d="M20 26c-6-4-8-9-8-9 0 6 2 10 8 12z" />
+                    <path class="b" d="M44 26c6-4 8-9 8-9 0 6-2 10-8 12z" />
+                    <rect class="c" x="26" y="16" width="4" height="10" />
+                    <line class="c" x1="20" y1="36" x2="44" y2="36" stroke="#333" stroke-width="1" />
+                </svg>
+            </div>
+        </section>
+
+        <section class="posts">
+            <h3>Latest posts</h3>
+            <article class="post-card">
+                <h4><a href="#biology">Honeybee Biology & Life Cycle</a></h4>
+                <p>Explore honeybee anatomy, caste roles, and how a colony grows and survives.</p>
+            </article>
+
+            <article class="post-card">
+                <h4><a href="#threats">Threats & How to Help Honeybees</a></h4>
+                <p>From pesticides to habitat loss — what you can do to support pollinators in your backyard.</p>
+            </article>
+        </section>
+
+        <section id="biology" class="about">
+            <h2>Honeybee Biology & Life Cycle</h2>
+            <p><strong>Author:</strong> Honeybee Notes · <small>Updated Jan 1, 2026</small></p>
+
+            <h3>Who are honeybees?</h3>
+            <p>Honeybees (genus Apis) are social insects that live in colonies. A typical colony contains a single
+                queen, many workers (sterile females), and seasonally some drones (males).</p>
+
+            <h3>Anatomy & roles</h3>
+            <ul>
+                <li><strong>Queen:</strong> primary egg-layer and pheromone source that helps regulate colony behavior.
+                </li>
+                <li><strong>Workers:</strong> perform foraging, nursing, comb building, defense, and hive maintenance
+                    across their short lives.</li>
+                <li><strong>Drones:</strong> mate with queens; they do not forage or work in the hive.</li>
+            </ul>
+
+            <h3>Life cycle</h3>
+            <p>Honeybees develop from eggs → larvae → pupae → adult. Development time and role (worker, drone, or queen)
+                depend on nutrition and brood care.</p>
+
+            <h3>Pollination</h3>
+            <p>Foraging worker bees collect nectar and pollen. While visiting flowers they unintentionally transfer
+                pollen — a vital ecosystem service supporting agriculture and wild plants.</p>
+
+            <p><a href="#top">← Back to home</a></p>
+        </section>
+
+        <section id="threats" class="about">
+            <h2>Threats & How to Help Honeybees</h2>
+            <p><strong>Author:</strong> Honeybee Notes · <small>Updated Jan 1, 2026</small></p>
+
+            <h3>Main threats</h3>
+            <ul>
+                <li><strong>Pesticides:</strong> Certain insecticides can kill bees directly or impair navigation and
+                    immune responses.</li>
+                <li><strong>Habitat loss:</strong> Loss of wildflower meadows and nesting sites reduces forage and
+                    nesting choices.</li>
+                <li><strong>Parasites & disease:</strong> Varroa mites, viruses, and fungal infections can weaken
+                    colonies.</li>
+                <li><strong>Climate & weather extremes:</strong> affect floral resources and colony resilience.</li>
+            </ul>
+
+            <h3>How you can help</h3>
+            <ol>
+                <li>Plant pollinator-friendly flowers that bloom across seasons.</li>
+                <li>Avoid or reduce pesticide use; choose bee-safe alternatives.</li>
+                <li>Provide water and sheltered spaces (logs, insect hotels).</li>
+                <li>Support local beekeepers and conservation groups.</li>
+            </ol>
+
+            <p>Learn more at: <a href="https://www.xerces.org/" target="_blank" rel="noopener">Xerces Society</a>.</p>
+
+            <p><a href="#top">← Back to home</a></p>
+        </section>
+
+        <section id="about" class="about">
+            <h3>About this blog</h3>
+            <p>This is a short, static blog created to share key facts and practical tips about honeybees. Sources
+                include scientific summaries and conservation organizations.</p>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>Built with care · <small>Content for educational purposes</small></p>
+            <p>Resources: <a href="https://www.xerces.org/" target="_blank" rel="noopener">Xerces Society</a>, <a
+                    href="https://www.fs.usda.gov/" target="_blank" rel="noopener">USDA</a></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
